@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight Learning – Learn Smart. Achieve More.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div id="scroll-progress"></div>
+
+  <!-- LOADING SCREEN -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">IL</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <p>Insight Learning</p>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-badge">IL</span>
+        <div class="brand-text">
+          <span class="brand-name">Insight Learning</span>
+          <span class="brand-tagline">Learn Smart. Achieve More.</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#testimonials">Results</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#register" class="nav-cta">Enroll Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- LIMITED SEATS BANNER -->
+  <div class="seats-banner">
+    <div class="seats-inner">
+      <i class="fas fa-fire"></i>
+      <span>🔥 Limited Seats Available for 2025–26 Batch! Admissions Closing Soon.</span>
+      <div class="countdown-wrap">
+        <span>Enrollment closes in:</span>
+        <div class="countdown" id="countdown">
+          <div class="cd-block"><span id="cd-days">00</span><label>Days</label></div>
+          <div class="cd-block"><span id="cd-hours">00</span><label>Hrs</label></div>
+          <div class="cd-block"><span id="cd-mins">00</span><label>Mins</label></div>
+          <div class="cd-block"><span id="cd-secs">00</span><label>Secs</label></div>
+        </div>
+      </div>
+      <a href="#register" class="seats-btn">Secure Your Seat →</a>
+    </div>
+  </div>
+
+  <!-- ======================== HERO ======================== -->
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" id="hero-particles"></div>
+    <div class="hero-content reveal">
+      <div class="hero-badge"><i class="fas fa-star"></i> #1 Coaching in Alandi</div>
+      <h1>Build Your Future with<br /><span class="gold-text">Insight Learning</span></h1>
+      <p class="hero-sub">Where concepts become clarity and hard work becomes results.<br />Trusted by 500+ students across Pune & beyond.</p>
+      <div class="hero-btns">
+        <a href="#register" class="btn-primary"><i class="fas fa-rocket"></i> Enroll Now</a>
+        <a href="https://wa.me/918806605550?text=Hi%2C%20I%20want%20to%20join%20Insight%20Learning" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Contact on WhatsApp</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span>
+          <p>Students Taught</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <span class="stat-num" data-target="95">0</span><span class="stat-plus">%</span>
+          <p>Success Rate</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-card">
+          <i class="fas fa-chalkboard-teacher stat-icon"></i>
+          <p>Expert Faculty</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ======================== WHY CHOOSE US ======================== -->
+  <section id="why-us" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Why Insight Learning?</span>
+        <h2>We Don't Just Teach.<br /><span class="gold-text">We Transform.</span></h2>
+        <p>Our teaching methodology is designed to make every student confident, competitive, and result-oriented.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-brain"></i></div>
+          <h3>Concept-Based Learning</h3>
+          <p>We build deep understanding, not rote memorization — so students excel in any exam format.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>Personal Mentorship</h3>
+          <p>Every student gets dedicated attention. We track individual progress and guide accordingly.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Small Batch Size</h3>
+          <p>Batches of 15–20 students ensure no one gets left behind. Quality over quantity, always.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-clipboard-check"></i></div>
+          <h3>Weekly Tests & Analysis</h3>
+          <p>Regular assessments with detailed performance reports so students know exactly where to improve.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-comments"></i></div>
+          <h3>Doubt Solving Sessions</h3>
+          <p>Dedicated doubt-clearing sessions so no question goes unanswered. Ever.</p>
+        </div>
+        <div class="feature-card reveal">
+          <div class="feature-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Competitive Exam Focus</h3>
+          <p>Specialized preparation for JEE, NEET, MH-CET & board exams with proven strategies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== COURSES ======================== -->
+  <section id="courses" class="section-pad dark-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Programs</span>
+        <h2>Courses Designed for<br /><span class="gold-text">Every Aspiration</span></h2>
+        <p>From school foundations to competitive exam excellence — we have it all covered.</p>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card reveal" data-course="610">
+          <div class="course-ribbon">Most Popular</div>
+          <div class="course-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Class 6–10</h3>
+          <p class="course-boards"><i class="fas fa-check-circle"></i> CBSE &nbsp; <i class="fas fa-check-circle"></i> SSC &nbsp; <i class="fas fa-check-circle"></i> ICSE</p>
+          <p>Build a strong academic foundation with concept clarity across Science, Maths & more.</p>
+          <div class="course-highlights">
+            <span><i class="fas fa-star"></i> All Boards</span>
+            <span><i class="fas fa-star"></i> Foundation Batches</span>
+          </div>
+          <button class="course-btn" onclick="openCourseModal('610')">View Details <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="course-card reveal" data-course="1112">
+          <div class="course-icon"><i class="fas fa-atom"></i></div>
+          <h3>Class 11 & 12</h3>
+          <p class="course-boards"><i class="fas fa-check-circle"></i> Science &nbsp; <i class="fas fa-check-circle"></i> Board Exams</p>
+          <p>Master Physics, Chemistry, Mathematics & Biology with exam-focused strategies.</p>
+          <div class="course-highlights">
+            <span><i class="fas fa-star"></i> Board Prep</span>
+            <span><i class="fas fa-star"></i> Practical Focus</span>
+          </div>
+          <button class="course-btn" onclick="openCourseModal('1112')">View Details <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="course-card reveal" data-course="competitive">
+          <div class="course-ribbon gold-ribbon">Elite</div>
+          <div class="course-icon"><i class="fas fa-medal"></i></div>
+          <h3>JEE / NEET / MH-CET</h3>
+          <p class="course-boards"><i class="fas fa-check-circle"></i> JEE &nbsp; <i class="fas fa-check-circle"></i> NEET &nbsp; <i class="fas fa-check-circle"></i> MH-CET &nbsp; <i class="fas fa-check-circle"></i> IAT &nbsp; <i class="fas fa-check-circle"></i> NDA</p>
+          <p>Intensive training for top national exams with mock tests, PYQs and performance analytics.</p>
+          <div class="course-highlights">
+            <span><i class="fas fa-star"></i> Mock Tests</span>
+            <span><i class="fas fa-star"></i> PYQ Practice</span>
+          </div>
+          <button class="course-btn" onclick="openCourseModal('competitive')">View Details <i class="fas fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Modal -->
+  <div class="modal-overlay" id="course-modal" onclick="closeModal(event)">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeCourseModal()"><i class="fas fa-times"></i></button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ======================== FACULTY ======================== -->
+  <section id="faculty" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Meet the Experts</span>
+        <h2>Faculty Who<br /><span class="gold-text">Inspire Excellence</span></h2>
+        <p>Our educators are not just teachers — they are mentors committed to your success.</p>
+      </div>
+      <div class="faculty-grid">
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="https://ui-avatars.com/api/?name=Shailendra+Sir&background=0a1a3e&color=d4af37&size=200&bold=true&font-size=0.33" alt="Shailendra Sir" loading="lazy" />
+            <div class="faculty-glow"></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Shailendra Sir</h3>
+            <span class="faculty-role">Founder & Director</span>
+            <p>Visionary educator with 10+ years of experience shaping thousands of student careers.</p>
+            <div class="faculty-tags">
+              <span>10+ Years</span><span>Academic Director</span>
+            </div>
+          </div>
+        </div>
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="https://ui-avatars.com/api/?name=Laxman+Sir&background=0a1a3e&color=d4af37&size=200&bold=true&font-size=0.33" alt="Laxman Sir" loading="lazy" />
+            <div class="faculty-glow"></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Laxman Sir</h3>
+            <span class="faculty-role">Physics Expert</span>
+            <p>Masters in Physics with a knack for making even the toughest concepts crystal clear.</p>
+            <div class="faculty-tags">
+              <span>M.Sc. Physics</span><span>JEE/NEET Expert</span>
+            </div>
+          </div>
+        </div>
+        <div class="faculty-card reveal">
+          <div class="faculty-img-wrap">
+            <img src="https://ui-avatars.com/api/?name=Praful+Sir&background=0a1a3e&color=d4af37&size=200&bold=true&font-size=0.33" alt="Praful Sir" loading="lazy" />
+            <div class="faculty-glow"></div>
+          </div>
+          <div class="faculty-info">
+            <h3>Praful Sir</h3>
+            <span class="faculty-role">Mathematics Expert</span>
+            <p>Passionate mathematician who transforms fear of numbers into love for problem-solving.</p>
+            <div class="faculty-tags">
+              <span>M.Sc. Maths</span><span>Board & CET</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== DEMO LECTURE ======================== -->
+  <section id="demo" class="section-pad dark-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Demo Lecture</span>
+        <h2>Watch Before You<br /><span class="gold-text">Decide to Join</span></h2>
+        <p>Experience our teaching style firsthand. See how we make learning engaging and effective.</p>
+      </div>
+      <div class="demo-wrap reveal">
+        <div class="demo-video-container">
+          <div class="demo-video-frame">
+            <!-- Replace VIDEO_ID with your YouTube video ID -->
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0&modestbranding=1"
+              title="Insight Learning Demo Lecture"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="demo-badge"><i class="fas fa-play-circle"></i> Free Demo Lecture</div>
+        </div>
+        <div class="demo-info">
+          <h3>See the Insight Learning Difference</h3>
+          <ul class="demo-list">
+            <li><i class="fas fa-check-circle"></i> Concept-first approach explained</li>
+            <li><i class="fas fa-check-circle"></i> Real classroom experience</li>
+            <li><i class="fas fa-check-circle"></i> How we solve doubts interactively</li>
+            <li><i class="fas fa-check-circle"></i> Mock problem-solving sessions</li>
+          </ul>
+          <p class="demo-note">Like what you see? Join hundreds of students already transforming their academic future.</p>
+          <a href="#register" class="btn-primary">Enroll After Watching <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== TESTIMONIALS ======================== -->
+  <section id="testimonials" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Student Results</span>
+        <h2>Real Students.<br /><span class="gold-text">Real Transformations.</span></h2>
+        <p>Don't take our word for it — hear directly from students who changed their trajectory with Insight Learning.</p>
+      </div>
+      <div class="testimonials-carousel reveal">
+        <div class="carousel-track" id="carousel-track">
+          <div class="testimonial-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Best coaching in Alandi! The way concepts are explained here is absolutely fantastic. I finally understand Physics and Maths properly."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">R</div>
+              <div>
+                <strong>Rohit Sharma</strong>
+                <span>Class 12 — 91% in Boards</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Improved my marks from 60% to 90% in just one year. Shailendra Sir's personal attention and the regular tests made all the difference."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">P</div>
+              <div>
+                <strong>Priya Desai</strong>
+                <span>Class 10 — SSC Board Topper</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"Cleared MH-CET with 98 percentile! The mock tests and doubt-solving sessions at Insight Learning were absolutely crucial for my success."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">A</div>
+              <div>
+                <strong>Arjun Pawar</strong>
+                <span>MH-CET — 98 Percentile</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"The small batch size ensures you're never lost in a crowd. Praful Sir's Maths sessions are simply outstanding. I topped in my school!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">S</div>
+              <div>
+                <strong>Sneha Kulkarni</strong>
+                <span>Class 11 — School Topper</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p>"My son used to struggle with Science. After joining Insight Learning, he's now confident and scoring 85+. Laxman Sir is a fantastic teacher!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar">M</div>
+              <div>
+                <strong>Mrs. Meera Joshi</strong>
+                <span>Parent — Class 9 Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prev-btn" onclick="prevSlide()"><i class="fas fa-chevron-left"></i></button>
+          <div class="carousel-dots" id="carousel-dots"></div>
+          <button class="carousel-btn" id="next-btn" onclick="nextSlide()"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== REGISTRATION FORM ======================== -->
+  <section id="register" class="section-pad dark-section">
+    <div class="container">
+      <div class="register-wrap">
+        <div class="register-info reveal">
+          <span class="section-tag">Join Now</span>
+          <h2>Start Your <span class="gold-text">Success Journey</span> Today</h2>
+          <p>Fill in your details and our team will get in touch within 24 hours to guide you through the enrollment process.</p>
+          <ul class="register-perks">
+            <li><i class="fas fa-check-circle"></i> Free Demo Class</li>
+            <li><i class="fas fa-check-circle"></i> Personalised Batch Guidance</li>
+            <li><i class="fas fa-check-circle"></i> No Hidden Fees</li>
+            <li><i class="fas fa-check-circle"></i> Study Material Included</li>
+          </ul>
+          <div class="register-seats">
+            <i class="fas fa-fire"></i>
+            <span>Only <strong>8 seats</strong> remaining this batch!</span>
+          </div>
+        </div>
+        <div class="register-form-wrap reveal">
+          <form id="enrollment-form" class="enrollment-form" onsubmit="handleFormSubmit(event)">
+            <h3>Enrollment Form</h3>
+            <div class="form-group">
+              <label for="f-name"><i class="fas fa-user"></i> Full Name</label>
+              <input type="text" id="f-name" name="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="f-phone"><i class="fas fa-phone"></i> Phone Number</label>
+              <input type="tel" id="f-phone" name="phone" placeholder="Enter your phone number" required />
+            </div>
+            <div class="form-group">
+              <label for="f-class"><i class="fas fa-graduation-cap"></i> Select Class</label>
+              <select id="f-class" name="class" required>
+                <option value="" disabled selected>-- Select Your Class --</option>
+                <option value="Class 6">Class 6</option>
+                <option value="Class 7">Class 7</option>
+                <option value="Class 8">Class 8</option>
+                <option value="Class 9">Class 9</option>
+                <option value="Class 10">Class 10</option>
+                <option value="Class 11">Class 11</option>
+                <option value="Class 12">Class 12</option>
+                <option value="JEE/NEET/MH-CET">JEE / NEET / MH-CET</option>
+                <option value="NDA/IAT">NDA / IAT</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="f-school"><i class="fas fa-school"></i> School Name</label>
+              <input type="text" id="f-school" name="school" placeholder="Enter your school name" required />
+            </div>
+            <div class="form-group">
+              <label for="f-board"><i class="fas fa-list"></i> Board</label>
+              <select id="f-board" name="board">
+                <option value="" disabled selected>-- Select Board --</option>
+                <option value="CBSE">CBSE</option>
+                <option value="SSC">SSC (Maharashtra)</option>
+                <option value="ICSE">ICSE</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <button type="submit" class="btn-form-submit" id="submit-btn">
+              <span id="btn-text"><i class="fas fa-paper-plane"></i> Submit Enrollment</span>
+              <span id="btn-loader" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Submitting...</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Popup -->
+  <div class="popup-overlay" id="success-popup">
+    <div class="popup-box">
+      <div class="popup-icon"><i class="fas fa-check-circle"></i></div>
+      <h3>You're Registered!</h3>
+      <p>We will contact you soon. Thank you for choosing <strong>Insight Learning</strong>!</p>
+      <button onclick="closePopup()" class="btn-primary">Got It! <i class="fas fa-thumbs-up"></i></button>
+    </div>
+  </div>
+
+  <!-- ======================== CONTACT + MAP ======================== -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Find Us</span>
+        <h2>Visit <span class="gold-text">Insight Learning</span></h2>
+        <p>Come meet us in person or reach out — we're always happy to help.</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Address</strong>
+              <p>Next to Tulja Bhavani Mandir, near HP Gas Agency,<br />Alandi Devachi, Vadgaon, Pune,<br />Maharashtra 412105</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <strong>Call Us</strong>
+              <p><a href="tel:+918806605550">+91 88066 05550</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fab fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp</strong>
+              <p><a href="https://wa.me/918806605550?text=Hi%2C%20I%20want%20to%20join%20Insight%20Learning" target="_blank">Chat with Us Now</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Timing</strong>
+              <p>Mon – Sat: 7:00 AM – 9:00 PM<br />Sunday: By Appointment</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.0!2d73.8969!3d18.6843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9f0a5c2d5b1%3A0x1234567890abcdef!2sAlandi%20Devachi%2C%20Pune%2C%20Maharashtra%20412105!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+            width="100%"
+            height="350"
+            style="border:0; border-radius: 16px;"
+            allowfullscreen=""
+            loading="lazy"
+            title="Insight Learning Location"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================== FOOTER ======================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <span class="brand-badge">IL</span>
+            <div class="brand-text">
+              <span class="brand-name">Insight Learning</span>
+              <span class="brand-tagline">Learn Smart. Achieve More.</span>
+            </div>
+          </div>
+          <p>Premier coaching institute in Alandi Devachi, Pune. Transforming students into achievers since day one.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#register">Enroll Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-phone-alt"></i> <a href="tel:+918806605550">+91 88066 05550</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Alandi Devachi, Pune – 412105</p>
+          <a href="https://wa.me/918806605550?text=Hi%2C%20I%20want%20to%20join%20Insight%20Learning" target="_blank" class="footer-wa-btn"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Insight Learning. All rights reserved. | Designed for Excellence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/918806605550?text=Hi%2C%20I%20want%20to%20join%20Insight%20Learning" target="_blank" class="whatsapp-float" id="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Chat with us!</span>
+    <div class="wa-pulse"></div>
+  </a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- COURSE MODAL DATA -->
+  <script>
+    const courseData = {
+      '610': {
+        title: 'Class 6–10 (Foundation Batch)',
+        icon: 'fas fa-book-open',
+        boards: 'CBSE | SSC | ICSE',
+        desc: 'Our foundation batch is designed to build rock-solid academic clarity from Class 6 to 10. We focus on concept building, regular practice, and exam preparation for all major boards.',
+        features: ['All Subjects: Science, Maths, English, SST', 'Board-wise Curriculum', 'Weekly Tests & Report Cards', 'PTM (Parent-Teacher Meetings)', 'Study Material Included', 'Doubt Sessions Every Week']
+      },
+      '1112': {
+        title: 'Class 11 & 12 (Science)',
+        icon: 'fas fa-atom',
+        boards: 'CBSE | HSC Board',
+        desc: 'Intensive Science stream coaching for Class 11 and 12. Cover Physics, Chemistry, Maths and Biology with in-depth concept teaching and board exam strategies.',
+        features: ['Physics | Chemistry | Maths | Biology', 'Board Exam Strategy', 'Practicals & Diagrams Support', 'Previous Year Papers', 'Mock Board Exams', 'Career Counselling']
+      },
+      'competitive': {
+        title: 'JEE / NEET / MH-CET / IAT / NDA',
+        icon: 'fas fa-medal',
+        boards: 'National & State Level',
+        desc: 'Our elite competitive exam program prepares students for India\'s top entrance exams with rigorous practice, concept reinforcement, and test-taking strategies.',
+        features: ['JEE Main & Advanced', 'NEET (Medical)', 'MH-CET (Engineering & Pharmacy)', 'IAT (Integrated Aptitude Test)', 'NDA (National Defence Academy)', 'Full-Length Mock Tests', 'Performance Analytics', 'PYQ Bank Access']
+      }
+    };
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
